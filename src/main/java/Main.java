@@ -24,7 +24,5 @@ public class Main {
         Test_04 test_04 = new Test_04();
         test_04.testHasItemFunction();
 
-
-
     }
 }
