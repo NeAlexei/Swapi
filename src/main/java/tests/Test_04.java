@@ -13,3 +13,5 @@ public void testHasItemFunction(){
         body("films", hasItems ("https://swapi.co/api/films/6/", "https://swapi.co/api/films/1/"));
     }
 }
+
+//hasItems

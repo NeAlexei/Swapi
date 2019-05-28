@@ -14,3 +14,5 @@ public void testEqualToFunction(){
             body("name", equalTo("Darth Vader"));
     }
 }
+
+//equalTo
