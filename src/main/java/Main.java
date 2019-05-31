@@ -1,8 +1,5 @@
 import org.testng.annotations.Test;
-import tests.Test_01;
-import tests.Test_02;
-import tests.Test_03;
-import tests.Test_04;
+import tests.*;
 
 public class Main {
 
@@ -24,5 +21,8 @@ public class Main {
         Test_04 test_04 = new Test_04();
         test_04.testHasItemFunction();
 
+        System.out.println("Test_05: ");
+        Test_05 test_05 = new Test_05();
+        test_05.testSingleXmlContent();
     }
 }
